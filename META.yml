@@ -1,0 +1,27 @@
+--- #YAML:1.0
+name:               Cisco-UCS-Chassis
+version:            0.1
+abstract:           Class providing operations with a Cisco UCS Chassis
+author:
+    - Luke Poskitt <ltp@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Cisco::UCS::Common::Fan:  0.1
+    Cisco::UCS::Common::FanModule:  0.1
+    Cisco::UCS::Common::PSU:  0.1
+    Cisco::UCS::FEX:      0.1
+    Scalar::Util:         0
+    Test::More:           0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
